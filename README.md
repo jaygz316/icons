@@ -2,22 +2,23 @@
 
 A collection of custom icons, logos, and branding assets for personal projects and integrations.
 
-## Contents
+## Directory Structure
 
-- **SVG:** `digg.svg`
+- **SVG:** `svg/digg.svg`
 - **PNG:**
-    - `airforceLogoWhite.png`
-    - `bambuLab.png`
-    - `equipBid.png`
-    - `iptvBoss.png`
-    - `nationalGeneral.png`
-    - `notebookLM.png`
-    - `synchrony.png`
+    - `png/airforceLogoWhite.png`
+    - `png/bambuLab.png`
+    - `png/equipBid.png`
+    - `png/iptvBoss.png`
+    - `png/nationalGeneral.png`
+    - `png/nationalGeneral2.png`
+    - `png/notebookLM.png`
+    - `png/synchrony.png`
 - **JPEG:**
-    - `nationalGeneral.jpg`
-    - `thangs.jpg`
-- **ICO:** `craigslist.ico`
-- **WebP:** `blackBoard.webp`
+    - `jpg/nationalGeneral.jpg`
+    - `jpg/thangs.jpg`
+- **ICO:** `ico/craigslist.ico`
+- **WebP:** `webp/blackBoard.webp`
 
 ## Usage
 
