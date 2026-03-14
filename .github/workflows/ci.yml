@@ -1,0 +1,17 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run large file check
+        run: |
+          chmod +x ./scripts/check-large-files.sh
+          ./scripts/check-large-files.sh
